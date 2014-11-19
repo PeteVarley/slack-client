@@ -5,7 +5,8 @@ module Slack
         get('users.list', args)
       end
       def info(args = {})
-        get('users.info', args)
+        get('user.info', args)
+      end
     end
   end
 end
